@@ -75,8 +75,8 @@ video{
     height: 350px;
     border-radius: 10px;
     background-color: rgba(0, 0, 0, 0.4);
-    bottom: 58px;
-    left: 900px;
+    bottom: auto;
+    left: 80%;
     text-align: center;
 }
 

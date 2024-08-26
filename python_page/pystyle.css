@@ -211,7 +211,7 @@ h2 {
 
 }
     
-    .btn:hover{
+.btn:hover{
     color: rgb(0, 0, 0);
     width: 159px;
     background: rgb(255, 255, 255) none repeat scroll 0% 0% / auto padding-box border-box;
@@ -242,5 +242,66 @@ footer:hover{
 }
 
 @media screen and (max-width: 768px) {
+    .h22::before,
+    .h22::after {
+        display: none;
+    }
+
+    /* Increase the width of the underline when hovering */
+    .h22:hover::before,
+    .h22:hover::after {
+        display: none;
+    }
+
+    .weblinks::after{
+        display: none; 
+    }
     
+    .yt-links::after{
+        display: none;
+    }
+    
+    .weblinks:hover::after {
+        display: none;
+    }
+    
+    .yt-links:hover::after{
+        display: none;
+    }
+    
+    footer{
+        display: none;
+    }
+    
+    .btn{
+        width: 20%;
+    }
+
+    .h101, .h102{
+        font-size: 30px;
+    }
+
+    .p101, .p102{
+        font-size: 10px;
+    }
+
+    .pandc{
+        font-size: 10px;
+    }
+
+    .pro, .con{
+        font-size: 10px;
+    }
+
+    .weblink, .yt-links{
+        font-size: 10px;
+    }
+
+    #card{
+        width: 150%;
+    }
+
+    .btn:hover{
+        display: none;
+    }
 }

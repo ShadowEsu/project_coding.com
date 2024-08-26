@@ -69,7 +69,7 @@ html, body{
     padding-left: 20px;
     color: white;
     line-height: 0.8;
-    margin-top: -250px;
+    margin-top: -225px;
 }
 
 
@@ -126,12 +126,12 @@ h2 {
 /* Increase the width of the underline when hovering */
 .h22:hover::before,
 .h22:hover::after {
-    width: 76%;
+    width: 90%;
 }
 
 .heading101:hover::before,
 .heading101:hover::after {
-    width: 67%;
+    width: 65%;
 }
 
 
@@ -142,8 +142,8 @@ h2 {
 }   
 
 .python{
-    width: 1200px;
-    height: 500px;
+    width: 1000px;
+    height: 400px;
     background-color: rgb(955, 955, 255, 0.4);
     border-radius: 30px;
     display: grid;
@@ -168,6 +168,17 @@ h2 {
     border-radius: 40px;
     transition: 1.2s ease;
     overflow: visible;
+    transform: scale(1.08);
+}
+
+.css-image{
+    position: relative;
+    left: 4%;
+    padding-top: 90px;
+    border-radius: 40px;
+    transition: 1.2s ease;
+    scale: 0.7;
+    overflow: visible;
 }
 
 .details{
@@ -182,13 +193,13 @@ h2 {
     justify-content: center;
     transition: 1.5s;
     color: white;
-    font-size: 22px;
+    font-size: 18px;
 
 }
 h3{
     font-family: "Poppins";
     font-style: "bold";
-    font-size: 70px;
+    font-size: 40px;
     color: #f5db5a;
 }
 
@@ -197,12 +208,17 @@ h3{
 }
 
 .python:hover .details{
-    right: 30%;
+    right: 35%;
 }
 
 .python:hover .image{
-    scale: 1.4;
-    left: 90%;
+    scale: 1.2;
+    left: 80%;
+}
+
+.python:hover .css-image{
+    scale: 1;
+    left: 80%;
 }
 
 .python:hover .start{
@@ -423,11 +439,11 @@ nav{
 }
 
 .nav-content{
-    word-spacing: 70px;
+    word-spacing: 100px;
 }
 
 .nav{
-    font-size: 25px;
+    font-size: 35px;
     font-family: "Poppins";
     font-weight: 400;
     text-align: center;

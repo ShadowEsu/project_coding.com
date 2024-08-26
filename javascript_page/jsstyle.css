@@ -77,10 +77,14 @@ video{
     position: absolute;
     width: 400px;
     height: 250px;
+    width: 500px;
+    height: 300px;
     border-radius: 10px;
     background-color: rgba(0, 0, 0, 0.4);
     bottom: 18%;
     left: 56.21%;
+    bottom: auto;
+    left: 50%;
     text-align: center;
 }
 
@@ -153,7 +157,7 @@ h2{
 
 }
     
-.btn:hover{
+    .btn:hover{
     color: rgb(0, 0, 0);
     width: 159px;
     background: rgb(255, 255, 255) none repeat scroll 0% 0% / auto padding-box border-box;

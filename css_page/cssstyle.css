@@ -188,17 +188,18 @@ html, body{
     --hover-color: #000000;
     --hover-bgc: #ffffff;
     right: 2%;
+    top: 4%;
 
-    }
+}
     
-    .btn:hover{
+.btn:hover{
     color: rgb(0, 0, 0);
     width: 159px;
     background: rgb(255, 255, 255) none repeat scroll 0% 0% / auto padding-box border-box;
     border-color: rgb(255, 170, 0);
     border-width: 2px;
     border-style: solid;
-    }
+}
 
 footer{
         position: fixed;

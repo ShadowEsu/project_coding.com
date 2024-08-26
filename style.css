@@ -22,11 +22,17 @@ html, body{
     box-sizing: border-box;
 }
 
+.section1{
+    width: 100%;
+    height: auto;
+    padding: 2%;
+}
+
 .heading101, .heading102 {
     font-family: "Poppins";
     margin-top: -50px;
     font-weight: bold;
-    font-size: 270px;
+    font-size: 200px;
     position: relative;
     transition: color 0.3 ease;
     margin-left: 30px;
@@ -42,16 +48,14 @@ html, body{
 
 .text-cursor{
     animation: glitch 1s infinite;
-    padding-left: 1390px;
-    font-size: 270px;
+    left: 90%;
+    font-size: 200px;
     font-weight: bold;
     font-family: "Poppins";
     margin: 0;
-    vertical-align: top;
     position: absolute;
-    margin-top: -400px;
+    top: 45%;
 }
-
 
 
 .section1 .heading102{
@@ -60,12 +64,12 @@ html, body{
 
 .section1 .intro{
     font-family: "Poppins";
-    font-size: 23px;
+    font-size: 20px;
     font-weight: normal;
     padding-left: 20px;
     color: white;
     line-height: 0.8;
-    margin-top: -280px;
+    margin-top: -250px;
 }
 
 
@@ -419,11 +423,11 @@ nav{
 }
 
 .nav-content{
-    word-spacing: 100px;
+    word-spacing: 70px;
 }
 
 .nav{
-    font-size: 35px;
+    font-size: 25px;
     font-family: "Poppins";
     font-weight: 400;
     text-align: center;

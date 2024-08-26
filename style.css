@@ -52,8 +52,8 @@ html, body{
     font-size: 200px;
     font-weight: bold;
     font-family: "Poppins";
-    position: inherit;
-    top: 45%;
+    position: absolute;
+    top: 40%;
 }
 
 
@@ -597,6 +597,11 @@ a:active {
 
     .python:hover{
         opacity: 1;
+    }
+
+    .python{
+
+        transition: none;
     }
     
 }

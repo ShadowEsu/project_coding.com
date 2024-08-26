@@ -64,7 +64,7 @@ html, body{
 }
 
 .p101, .p102{
-    font-size: 15px;
+    font-size: 13px;
     text-align: center;
 }
 
@@ -81,7 +81,7 @@ h2 {
     color: white; 
     transition: color 0.3s ease; /* Transition for color change */
     font-family: "Poppins";
-    margin-top: 20px;
+    margin-top: 15px;
 }
 
 
@@ -112,17 +112,18 @@ h2 {
 .pandc{
     font-family: "Poppins";
     border: 1px solid transparent;
+    font-size: 12px;
 }
 
 .pros{
     color: green;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 450;
 }
 
 .cons{
     color: red;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 400;
 }
 
@@ -140,7 +141,8 @@ h2 {
 }
 
 .yt-links{
-    color: rgb(214, 94, 94);  
+    color: rgb(214, 94, 94);
+    font-size: 12px;  
 }
 
 .weblinks{
@@ -149,7 +151,7 @@ h2 {
 
 .weblinks, .yt-links{
     font-weight: 400;
-    font-size: 28px;
+    font-size: 12px;
     all: unset;
     cursor: pointer;
     display: inline;

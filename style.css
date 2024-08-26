@@ -221,9 +221,7 @@ h3{
     left: 80%;
 }
 
-.python:hover .start{
-    opacity: 0;
-}
+
 
 .html-h3{
     color: rgb(255, 60, 0);
@@ -553,4 +551,53 @@ a:active {
         font-size: 14px !important; /* Reduce font size within the cards */
     }
 
+    .css-h3, .js-h3, .py-h3 {
+        top: 10%;
+    }
+    
+    .heading101{
+        margin-top: 5%;
+    }
+
+
+    .text-cursor{
+        padding-top: 10px;
+    }
+
+    .heading101::before,
+    .heading101::after{
+        display: none;
+    }
+    
+    .h22::before,
+    .h22::after{
+        display: none;
+    }
+
+    .h22:hover::before,
+    .h22:hover::after{
+        display: none;
+    }
+
+    .heading101:hover::before,
+    .heading101:hover::after{
+        display: none;
+    }
+
+    .python:hover .details{
+        display: none;
+    }
+    
+    .python:hover .image{
+        display: none;
+    }
+    
+    .python:hover .css-image{
+        display: none;
+    }
+
+    .python:hover{
+        opacity: 1;
+    }
+    
 }

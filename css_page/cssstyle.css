@@ -1,0 +1,222 @@
+html, body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-image: radial-gradient(rgb(255, 0, 0), #006afe);
+    animation: fade 1s ease-in-out;
+}
+
+@keyframes fade{
+    from{
+        opacity: 0%;
+    }
+
+    to{
+        opacity: 100%;
+    }
+}
+
+.container{ 
+    font-family: "Poppins";
+    display: flex;
+    justify-content: center;
+}
+
+#card{
+    padding: 20px;
+    margin: 20px;
+    width: 35%;
+    height: 45%;
+    box-shadow: 0px 5px 5px rgb(79, 76, 76);
+    border-radius: 12px;
+}
+
+.h101{
+    padding: 1%;
+    margin: auto;
+    font-weight: 600;
+    right: 100px;
+}
+
+.h102{
+    display: absolute;
+    font-weight: 600;
+    left: 200px;
+}
+
+.card-p1:hover{
+    transform: scale(1.05);
+}
+
+.card-p1{
+    transition: scale 0.3s ease-in-out;
+}
+
+.card-p2{
+    transition: scale 0.3s ease-in-out;
+}
+
+.card-p2:hover{
+    scale: 1.05;
+}
+
+.card-p1{
+    background: linear-gradient(blue, cyan);
+    transition: all 0.3s ease-in-out;
+
+}
+
+::selection{
+    background-color: yellow;
+    color: black;
+}
+
+
+.card-p2::selection{
+    background: linear-gradient(blue, cyan);
+}
+
+.p102{
+    text-align: center;
+    margin: 5px;
+    padding: 5px;
+    font-size: 18px;
+}
+
+.head{
+    font-size: 20px;
+    text-decoration: underline;
+    font-weight: 500;
+}
+
+.yt{
+    color: white;
+    font-size: 17px;
+    text-decoration: none;
+    opacity: 0.8;
+    transition: all 0.3s ease-in;
+}
+
+.yt:hover{
+    color: red;
+    text-decoration: underline;
+    font-weight: 500;
+    opacity: 1;
+    scale: 1.1;
+}
+
+.w3{
+    color: white;
+    font-size: 17px;
+    text-decoration: none;
+    opacity: 0.8;
+    transition: all 0.3s ease-in;
+    
+}
+
+.w3:hover{
+    color: green;
+    text-decoration: underline;
+    font-weight: 500;
+    opacity: 1;
+    scale: 1.1;
+}
+
+.codecademy{
+    color: white;
+    font-size: 17px;
+    text-decoration: none;
+    opacity: 0.8;
+    transition: all 0.3s ease-in;
+}
+
+.codecademy:hover{
+    color: black;
+    text-decoration: underline;
+    font-weight: 500;
+    opacity: 1;
+    scale: 1.1;
+}
+
+.color{
+    color: purple;
+}
+
+.font{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.effects{
+    transition: all 4s ease-in-out;
+    cursor: pointer;
+    transition: all 1s ease-in;
+
+}
+
+.effects:hover{
+    color: white;
+    background-color: yellow;
+}
+
+
+.spacing{
+    word-spacing: 10px;
+    padding: 5px;
+    margin: auto;
+}
+
+.card-p2{
+    color: white;
+}
+
+.btn {
+    position: fixed;
+    cursor: pointer;
+    border: solid rgb(187, 204, 0);
+    font-family: "Poppins";
+    font-size: 17px;
+    color: rgb(255, 255, 255);
+    padding: 8px 30px;
+    transition: 1074ms;
+    width: 126px;
+    box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px;
+    border-radius: 50px;
+    background: linear-gradient(90deg, rgb(0, 166, 255) 0%, rgb(255, 170, 0) 100%);
+    --hover-width: 159px;
+    --hover-borderc: #ffaa00;
+    --hover-color: #000000;
+    --hover-bgc: #ffffff;
+    right: 2%;
+
+    }
+    
+    .btn:hover{
+    color: rgb(0, 0, 0);
+    width: 159px;
+    background: rgb(255, 255, 255) none repeat scroll 0% 0% / auto padding-box border-box;
+    border-color: rgb(255, 170, 0);
+    border-width: 2px;
+    border-style: solid;
+    }
+
+footer{
+        position: fixed;
+        width: 100%;
+        height: 45px;
+        background-color: #1e293b;
+        opacity: 0.5;
+        font-size: 14px;
+        font-family: "Poppins";
+        color: whitesmoke;
+        text-align: center;
+        bottom: 0;
+        margin: 0;
+        padding: 0;
+        transition: opacity, font-size 0.2s ease-in;
+}
+    
+footer:hover{
+        opacity: 0.9;
+        font-size: 16px;
+}

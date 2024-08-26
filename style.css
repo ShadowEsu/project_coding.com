@@ -496,18 +496,61 @@ a:active {
     color: white;
 }
 
-@media screen and (max-height: 425px) and (min-aspect-ratio: 7/4) {
-    body {
-      background-color: dodgerblue;
-      background-image: radial-gradient(whitesmoke, dodgerblue);
+
+/* Add this */
+@media screen and (max-width: 768px) {
+    .heading101, .heading102 {
+        font-size: 80px; /* Reduce the font size for smaller screens */
+        margin-left: 10px;
     }
-  
-    h1,
+
+    .section1 .heading102{
+        padding-left: 0;
+    }
+
+    .text-cursor {
+        font-size: 80px; /* Reduce cursor size */
+        top: 55%; /* Adjust cursor position */
+        left: auto;
+    }
+
+    .section1 .intro {
+        display: none;
+    }
+
     h2 {
-      font-size: 1.5rem;
+        font-size: 30px; /* Reduce the h2 size */
+        left: 5%;
     }
-  
-    nav {
-      display: none;
+
+    .details {
+        width: 90%;
+        right: 0;
     }
-  }
+
+    nav .nav-content {
+        display: none;
+    }
+
+    .nav {
+        font-size: 20px; /* Reduce font size for navigation */
+    }
+
+    footer {
+        font-size: 12px; /* Reduce footer font size */
+    }
+
+    .image, .css-image {
+        width: 20% !important; /* Further reduce image size */
+        height: auto !important;
+        margin: 5px auto !important; /* Center the images and add margin */
+    }
+
+    .python {
+        width: 80% !important; /* Further reduce the width of the card */
+        margin: 15px auto !important; /* Center the cards and reduce margin */
+        padding: 10px !important; /* Reduce padding */
+        font-size: 14px !important; /* Reduce font size within the cards */
+    }
+
+}

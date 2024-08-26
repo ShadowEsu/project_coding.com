@@ -1,3 +1,4 @@
+console.log("Michael was here :)")
 document.addEventListener('DOMContentLoaded', function() {
     const elementsInSection1 = document.querySelectorAll('.section1 .heading101, .section1 .heading102, .section1 .intro p');
   

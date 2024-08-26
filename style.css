@@ -468,3 +468,10 @@ footer:hover{
     font-size: 16px;
 }
 
+a {   
+    color: white;   
+}
+
+a:active {
+    color: white;
+}

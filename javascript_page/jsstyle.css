@@ -24,7 +24,7 @@ html, body{
 }
 
 .logo{
-    width: 400px;
+    width: 350px;
     height: auto;
     display: block;
     box-sizing: border-box;
@@ -40,8 +40,8 @@ html, body{
 
 h1{
     font-family: "Poppins";
-    font-size: 50px;
-    left: 230px;
+    font-size: 40px;
+    left: 190px;
     position: absolute;   
     top: 112px;
 }
@@ -51,31 +51,35 @@ h1{
     color: black;   
 }
 
-.p101{
+.containp1{
+    width: auto;
+    height: auto;
     position: absolute;
     font-family: "Poppins";
-    left: 550px;
-    top: 5px;
-    font-size: 18px;
+    left: 33%;
+    top: 2%;
+    font-size: 14px;
     padding: 15px;
 }
 
+
+
 video{
-    width: 600px;
+    width: 36%;
     height: auto;
-    position: relative;
-    bottom: -290px;
-    left: 50px;
+    position: absolute;
+    bottom: 12%;
+    left: 4%;
     border-radius: 12px;
 }
 
-.container2{
+.container2{    
     position: absolute;
-    width: 500px;
-    height: 350px;
+    width: 400px;
+    height: 250px;
     border-radius: 10px;
     background-color: rgba(0, 0, 0, 0.4);
-    bottom: 8.85%;
+    bottom: 18%;
     left: 56.21%;
     text-align: center;
 }
@@ -83,9 +87,9 @@ video{
 .w3, .codecademy, .javascript-com{
     color: white;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 20px;
     font-family: "Poppins";
-    padding: 15px;
+    padding: 15px;  
     transition: all 0.4s ease-in-out;
     text-align: center;
 }
@@ -109,17 +113,17 @@ video{
 }
 
 .note{
-    width: 500px;
+    width: 400px;
     height: auto;
-    bottom: 60px;
-    left: 900px;
+    bottom: 12%;
+    left: 56.21%;
     position: absolute;
     border-radius: 10px;
     opacity: 2;
 }
 
 h2{
-    font-size: 30px;
+    font-size: 25px;
     color: rgb(255, 255, 255);
     font-family: "Poppins";
     padding: 15px;
@@ -145,6 +149,7 @@ h2{
     --hover-bgc: #ffffff;
     right: 2%;
     margin-top: 280px;
+    bottom: 8%;
 
 }
     
@@ -177,3 +182,68 @@ footer:hover{
         opacity: 0.9;
         font-size: 16px;
 }
+
+@media screen and (min-width: 576px) {
+    main{
+      justify-content: center;
+      flex-flow: row wrap;
+      padding: 1rem;
+    }
+  
+    .body{
+      width:min(100%, 400px);
+    }
+    .body:last-child{
+      order: -1;
+    }
+  
+  }
+  
+  /* || MEDIUM */
+  @media screen and (min-width: 768px) {
+      .body{
+          width: min(100%, 325px);
+      }
+      .body figure{
+          flex-flow: column-reverse;
+      }
+      .body p{
+          margin-top: 1rem;
+      }
+      
+  }
+  
+  /* || LARGE */
+  @media screen and (min-width: 992px) {
+    .body{
+      width: min(100%, 460px);
+    }
+    .body:nth-child(2){
+      order: -1;
+    }
+  }
+  
+  /* || XL  */
+  @media screen and (min-width: 1200px) {
+    .body{
+      width: min(calc(33% - 1rem),500px);
+    }
+    
+  }
+  
+  /* || MOBILE DEVICE LANDSCAPE  */
+  @media screen and (max-height: 425px) and (min-aspect-ratio: 7/4) {
+    body {
+      background-color: dodgerblue;
+      background-image: radial-gradient(whitesmoke, dodgerblue);
+    }
+  
+    h1,
+    h2 {
+      font-size: 1.5rem;
+    }
+  
+    nav {
+      display: none;
+    }
+  }
